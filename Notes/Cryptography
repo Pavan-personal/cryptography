@@ -21,3 +21,5 @@ Creating a public private key pairs
 Using a seed phrase we can derive as many key pairs we want
 
 Mnemonics(words) --> Seed --> Key pairs
+
+We'll have derivation path from m (master seed) to different wallets
