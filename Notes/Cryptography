@@ -1,0 +1,23 @@
+In blockchain transactions we have public & private key pairs.
+    -> Public key is used to reading transactions.
+    -> Private key is used for initiating and doing transactions.
+
+    - base64 -> 6 bits encoding
+    - hex -> 4 bits encoding
+    - ascii -> 8 bits encoding
+
+Hashing is irreversable & encryption is bidirectional
+Encryption -> Symetric (single key) & Asymetric (2 keys)
+
+We can derive public key from a private key but we can't do vice versa
+
+Creating a public private key pairs
+    -> Generate key pair
+    -> Create a message
+    -> convert message into unit8Array
+    -> sign it with private key
+    -> now verify it with public key from another end
+
+Using a seed phrase we can derive as many key pairs we want
+
+Mnemonics(words) --> Seed --> Key pairs
